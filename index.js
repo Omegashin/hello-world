@@ -4,7 +4,7 @@ const port = 4000
 
 app.get('/', (req, res) => {
   console.log(process.env.foo);
-  res.send('Hello World!1')
+  res.send('Hello World!')
 })
 
 app.listen(port, () => {
